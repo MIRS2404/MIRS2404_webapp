@@ -1,5 +1,4 @@
 # MIRS2404_webapp
-# MIRS2404
 
 1. raspi/web/config.iniをエディタで開き、```web_main```項目の```HOST```を自分の環境のIPアドレスに変更
 2. raspi/webディレクトリを開く
