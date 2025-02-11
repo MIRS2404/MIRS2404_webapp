@@ -1,0 +1,2 @@
+flask[async] == 3.0.3
+websockets == 13.1

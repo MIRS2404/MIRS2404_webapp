@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.big-button {
+    width: 700px;  /* 固定の幅を設定 */
+    height: 200px; /* 固定の高さを設定 */
+    font-size: 5.0rem;
+    margin: 0 10px; /* ボタン間の水平方向の間隔 */
+    display: flex; /* Flexboxを使用 */
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+}
+
+.button4-size {
+    padding: 10px 40px;
+    font-size: 1.5rem;
+}
+
+#button2 {
+    display: none; /* 最初は非表示 */
+}
+
+#button4 {
+    display: none; /* 最初は非表示 */
+}
+
+/* ナビゲーションバーを固定位置に */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* ボタンコンテナの調整 */
+.container {
+    margin-top: -56px; /* ナビゲーションバーの高さ分を引く */
+}
+
+.modal-dialog {
+    max-width: 600px;  /* モーダルの幅 */
+}
+
+.modal-body {
+    padding: 2rem;  /* 内部の余白 */
+}
+
+#okButton {
+    padding: 10px 50px;  /* OKボタンのサイズ */
+    font-size: 1.2rem;  /* OKボタンのフォントサイズ */
+}
+
+#progress-container {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+#progress-container {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
